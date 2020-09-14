@@ -9,7 +9,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600089812248</updated>
-      <workItem from="1600089813914" duration="2689000" />
+      <workItem from="1600089813914" duration="3905000" />
     </task>
     <servers />
   </component>
@@ -169,9 +171,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600090835903">
+    <state x="458" y="380" key="ComposerInitDialogKey" timestamp="1600108203104">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="380" key="ComposerInitDialogKey/1440.-43.1280.1001/0.23.1440.877@0.23.1440.877" timestamp="1600108203104" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600108166736">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600090835903" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/1440.-43.1280.1001/0.23.1440.877@0.23.1440.877" timestamp="1600108166736" />
   </component>
 </project>

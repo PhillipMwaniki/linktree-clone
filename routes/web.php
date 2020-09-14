@@ -34,3 +34,7 @@ Route::post('/visit/{link}', 'VisitController@store');
 
 Route::get('/{user}', 'UserController@show');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
