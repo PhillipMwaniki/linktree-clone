@@ -15,6 +15,8 @@ class CreateVisitsTable extends Migration
     {
         Schema::create('visits', function (Blueprint $table) {
             $table->id();
+            $table->integer('link_id');
+            $table->text('user_agent')->nullable();
             $table->timestamps();
         });
     }
