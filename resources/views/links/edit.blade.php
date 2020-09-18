@@ -31,9 +31,14 @@
                         <div class="row">
                             <div class="col-12">
                                 @csrf
-                                <button type="submit" class="btn btn-primary">Update Link</button>
+                                <button type="submit" class="btn btn-primary">Update</button>
+                                <button type="submit" class="btn btn-danger" onclick="event.preventDefault(); document.getElementById('delete-form').submit()">Delete</button>
                             </div>
                         </div>
+                    </form>
+                    <form id="delete-form" action="/dashboard/links/{{ $link->id }}" method="post">
+                        @csrf
+                        @method('DELETE')
                     </form>
                 </div>
             </div>

@@ -103,6 +103,12 @@ class LinkController extends Controller
      */
     public function destroy(Link $link)
     {
-        //
+        if ($link->user_id !== Auth::id()){
+            return abort(403);
+        }
+
+        $link->delete();
+
+        return redirect()->to('/dashboard/links');
     }
 }
