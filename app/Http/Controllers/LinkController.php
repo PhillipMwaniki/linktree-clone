@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Link;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LinkController extends Controller
 {
@@ -14,7 +15,11 @@ class LinkController extends Controller
      */
     public function index()
     {
-        //
+        $links = Auth::user()->links()->get();
+
+        return view('links.index', [
+            'links' => $links
+        ]);
     }
 
     /**
@@ -24,7 +29,7 @@ class LinkController extends Controller
      */
     public function create()
     {
-        //
+        return view('links.create');
     }
 
     /**
@@ -35,7 +40,20 @@ class LinkController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $request->validate([
+            'name'  =>  'required|max:255',
+            'link'  =>  'required|url'
+        ]);
+
+        $link = Auth::user()->links()
+            ->create($request->only(['name', 'link']));
+
+        if ($link) {
+            return redirect()->to('/dashboard/links');
+        }
+
+        return redirect()->back();
     }
 
     /**

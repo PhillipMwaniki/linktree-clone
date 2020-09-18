@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Link extends Model
 {
-    protected $fillable = [];
+    protected $fillable = ['name', 'link'];
 
     public function user()
     {

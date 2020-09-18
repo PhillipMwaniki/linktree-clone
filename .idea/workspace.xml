@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf5d6ca-0ad5-413e-a69b-16e5fc77ddfb" name="Default Changelist" comment="" />
+    <list default="true" id="ccf5d6ca-0ad5-413e-a69b-16e5fc77ddfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LinkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LinkController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Link.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Link.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -19,6 +23,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -133,11 +140,13 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hVIPmm53FYhhyCc8alumjVAHqe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -149,6 +158,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -164,7 +174,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600089812248</updated>
-      <workItem from="1600089813914" duration="4990000" />
+      <workItem from="1600089813914" duration="9757000" />
+      <workItem from="1600425510890" duration="792000" />
+      <workItem from="1600430866505" duration="564000" />
     </task>
     <servers />
   </component>
@@ -172,14 +184,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600422878224">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1600422878224" />
     <state x="458" y="380" key="ComposerInitDialogKey" timestamp="1600108203104">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="380" key="ComposerInitDialogKey/1440.-43.1280.1001/0.23.1440.877@0.23.1440.877" timestamp="1600108203104" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600110021376">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600178611294">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600090835903" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600178611294" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/1440.-43.1280.1001/0.23.1440.877@0.23.1440.877" timestamp="1600110021376" />
   </component>
 </project>
