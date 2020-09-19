@@ -12,6 +12,7 @@
                             target="_blank"
                             rel="nofollow"
                             href="{{ $link->link }}"
+                            data-link-id="{{ $link->id }}"
                             style="border: 2px solid {{ $user->text_color }}; color: {{ $user->text_color }}"
                         >{{ $link->name }}</a>
                     </div>

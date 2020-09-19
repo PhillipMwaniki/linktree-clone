@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Visit extends Model
 {
-    protected $fillable = [];
+    protected $fillable = ['link_id', 'user_agent'];
 
     public function link()
     {
